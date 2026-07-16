@@ -1,17 +1,6 @@
 # Hospital Appointment Booking System
 
 # Dictionary of doctors and their specialties
-def login():
-    username = input("Enter Username: ")
-    password = input("Enter Password: ")
-
-    if username == "admin" and password == "admin123":
-        print("Login Successful\n")
-    else:
-        print("Invalid Username or Password")
-        exit()
-
-login()
 doctors = {
     1: {"name": "Dr. Sharma", "specialty": "Cardiologist"},
     2: {"name": "Dr. Mehta", "specialty": "Dermatologist"},
