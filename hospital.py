@@ -92,4 +92,4 @@ while True:
         print("Thank you for using the Hospital Appointment Booking System.")
         break
     else:
-        print("Invalid choice. Please try again.")
+        print("Invalid choice. Please try again.") #print performed
